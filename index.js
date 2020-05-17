@@ -11,6 +11,9 @@ var elem = document.querySelector("#bkg-img");
 
 var imagem;
 
+var hora2 = dateObject.getHours();
+
+
 if (dateObject.getHours() >= 0 && dateObject.getHours() < 5) {
     imagem = "https://cdn130.picsart.com/293517849008201.gif";
     elem.style.backgroundImage = "url("+ imagem +")";
@@ -36,12 +39,12 @@ if (dateObject.getHours() >= 16 && dateObject.getHours() < 20) {
     elem.style.backgroundImage = "url("+ imagem +")";
 }
 
-if (dateObject.getHours() >= 20 && dateObject.getHours() <= 00) {
+if (dateObject.getHours() >= 20 && dateObject.getHours() <= 23) {
     imagem = "https://media.boingboing.net/wp-content/uploads/2015/09/coffee_in_rain_by_kirokaze-d98qb8z.gif";
     elem.style.backgroundImage = "url("+ imagem +")";
 }
 
-if (dateObject.getHours() >= 12 && dateObject.getHours() < 0)  {
+if (dateObject.getHours() >= 12 && dateObject.getHours() <= 23)  {
     document.getElementById("hora").innerHTML = hora + " PM";
 } else {
     document.getElementById("hora").innerHTML = hora + " AM";
