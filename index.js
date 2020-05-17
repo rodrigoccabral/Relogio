@@ -15,7 +15,7 @@ var hora2 = dateObject.getHours();
 
 
 if (dateObject.getHours() >= 0 && dateObject.getHours() < 5) {
-    imagem = "https://cdn130.picsart.com/293517849008201.gif";
+    imagem = "https://i.pinimg.com/originals/c7/ab/99/c7ab9906f0e9ca33956a817d6dee34bc.gif";
     elem.style.backgroundImage = "url("+ imagem +")";
 }
 
@@ -25,13 +25,14 @@ if (dateObject.getHours() >= 5 && dateObject.getHours() < 10) {
 }
 
 if (dateObject.getHours() >= 10 && dateObject.getHours() < 14) {
-    imagem = "https://i.pinimg.com/originals/05/dc/14/05dc1498ad5dce13d32b957a4aef8d31.gif";
+    imagem = "https://i.imgur.com/ng8a3u6.gif";
     elem.style.backgroundImage = "url("+ imagem +")";
 }
 
 if (dateObject.getHours() >= 14 && dateObject.getHours() < 16) {
-    imagem = "https://i.imgur.com/ynXbQ1G.gif";
+    imagem = "https://i.gifer.com/Xuct.gif";
     elem.style.backgroundImage = "url("+ imagem +")";
+    elem.style.backgroundSize = "cover";
 }
 
 if (dateObject.getHours() >= 16 && dateObject.getHours() < 20) {
